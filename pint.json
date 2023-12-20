@@ -1,0 +1,35 @@
+{
+  "preset": "psr12",
+  "rules" : {
+    "single_trait_insert_per_statement": false,
+    "class_attributes_separation": {
+        "elements": {
+            "method": "one"
+        }
+    },
+    "multiline_whitespace_before_semicolons": false,
+    "single_quote": true,
+    "return_type_declaration": false,
+    "visibility_required": {
+      "elements": ["method"]
+    },
+    "new_with_braces": true,
+    "class_definition": {
+      "inline_constructor_arguments": false,
+      "multi_line_extends_each_single_line": false,
+      "single_item_single_line": true,
+      "single_line": false,
+      "space_before_parenthesis": true
+    },
+    "blank_line_after_opening_tag": true,
+    "no_multiline_whitespace_around_double_arrow": true,
+    "no_spaces_around_offset": true,
+    "no_whitespace_before_comma_in_array": true,
+    "no_whitespace_in_blank_line": true,
+    "object_operator_without_whitespace": true,
+    "trim_array_spaces": true,
+    "unary_operator_spaces": true,
+    "whitespace_after_comma_in_array": true,
+    "space_after_semicolon": true
+  }
+}
